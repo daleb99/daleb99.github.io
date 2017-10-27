@@ -1,7 +1,7 @@
 # Web-Authoring-2
 Website files for the Web Authoring assignment 2.
 
-#Content To Be Added
+# Content To Be Added
 
 -Home
 	Sports and such
