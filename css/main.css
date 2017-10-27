@@ -1,10 +1,6 @@
-html {
+html, body {
     font-family: Open Sans, Arial, sans-serif;
-}
-
-body {
-    
-    background-color: #9f9f9f;
+    /*background-color: #333;*/
 }
 
 /* Colours */
@@ -14,43 +10,43 @@ body {
 .darkslategray {color: #333333}
 .darkgreen {color: #B8C381;}
 .oldrose {color: #984843;}
-
-
 .skeptic {color: #C6E7CE;}
 .snowymint {color: #CEFFCE;}
 
+.site-banner {
+  box-shadow: 10px 5px 5px #888888;
+}
 
 .site-wrapper {
-    
+    min-height: 100%;
+    height: auto !important;
     height: 100%;
     width: 100%;
-    min-height: 100%;
-    
-}
-.site-banner {
-    
-    background-image: url("http://via.placeholder.com/1920x200");
-    height: 200px;
+    margin 0 auto -155px;
 }
 
 .inner {
-    padding:5px;
+    padding:20px;
+    box-shadow: 10px 5px 5px #888888;
 }
 
-/* Header Stuffs */
-
+/* Navbar Area */
 .masthead-brand {
   margin-top: 10px;
   margin-bottom: 10px;
   color: #4C9CCC;
+  color: rgb(76, 156, 205);
 }
+
 .masthead-nav > li {
   display: inline-block;
+  border: 1px solid black;
 }
+
 .masthead-nav > li + li {
   margin-left: 20px;
 }
-/*inactive navs - should be #E3EBFF rgba(231, 240, 255,.75)*/
+
 .masthead-nav > li > a {
   padding-right: 0;
   padding-left: 0;
@@ -58,20 +54,22 @@ body {
   font-weight: bold;
   color: #4C9CCC; 
   border-bottom: 2px solid transparent;
+  text-decoration: none;
 }
+
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
   background-color: transparent;
   border-bottom-color: #a9a9a9;
   border-bottom-color: rgba(255,255,255,.25);
 }
-/*active nav - should be #E3EBFF rgba(227, 235, 255,.75)*/
+
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
   color: #333333;
   color: rgba(51, 51, 51,.75);
-  border-bottom-color: #E3EBFF;
+  border-bottom-color: rgb(48, 48, 48);
 }
 
 @media (min-width: 768px) {
@@ -83,11 +81,14 @@ body {
   }
 }
 
+
+/* Main site content */
 .main-site-content {
     float: left;
     margin-left: 25px;
     width: 65%;
     border: 1px solid;
+    height: auto;
 }
 
 .right-column-content {
@@ -96,6 +97,18 @@ body {
     width: 30%;
     border: 1px solid;
 }
+
+.usefulLinks {
+    list-style: none;
+}
+
+/* Footer */
+.mastfoot {
+    color:#4C9CCC;
+    color: rgba(76, 156, 204);
+    text-align:center;
+    height: 155px;
+} 
 
 /* Margins */
 .mar0           {margin:0px !important;}
