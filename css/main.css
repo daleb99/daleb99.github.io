@@ -21,11 +21,6 @@ h1, h2, h3, h4, h5, h6 {
 .snowymint {color: #CEFFCE;}
 .uodblue {color: #4365E2;}
 
-
-#site-banner {
-  /*box-shadow: 10px 5px 5px #888;*/
-}
-
 #site-wrapper {
   min-height: 100%;
   height: auto !important;
