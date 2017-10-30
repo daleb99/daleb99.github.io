@@ -1,17 +1,11 @@
 # Web-Authoring-2
-Website files for the Web Authoring assignment 2.
+Website files for AC11002 WWW Authoring Assignment 2.
 
 # Content To Be Added
 
--Home<br>
-	Sports and such<br>
--About<br>
-	We are a sports society<br>
--Events<br>
-	October 10th there are sports<br>
--Media<br>
-	Pictures of people doing sports (in this society)<br>
--Contact us<br>
-	Here’s where ISE is and how to call and email us<br>
--Help<br>
-	I think this is just the same as above so maybe delete<br>
+- **Home** – Sports and such
+- **About** – We are a sports society
+- **Events** – October 10th there are sports
+- **Media** – Pictures of people doing sports (in this society)
+- **Contact us** – Here’s where ISE is and how to call and email us
+- **Help** – I think this is just the same as above so maybe delete
