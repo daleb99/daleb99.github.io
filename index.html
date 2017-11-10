@@ -1,74 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    
-    <link rel="stylesheet" href="css/main.css"/>
-    <link rel ="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
-    <title>ISE | Home</title>
-    
-  </head>
-  
-  <body>
-  
-    <div id="site-wrapper">
-    
-      <header>
-        <div id="banner-container">
-          <img id="site-banner" src="img/dundee-banner.jpg">
-        </div>
-        
-        <div id="masthead">
-        
-          <div id="masthead-brand">
-            <object id="masthead-icon" data="img/logo.svg" type="image/svg+xml" height="45" width="33">
-              <img id="masthead-icon" src="img/logo-fallback.png" width="45" width="33">
-            </object>
-            <h1 id="masthead-name">University of Dundee ISE</h1>
-          </div>
-          
-          <nav>
-            <ul id="masthead-nav">
-              <li class="active"><a href="index.html">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="events.html">Events</a></li>
-              <li><a href="classes.html">Classes</a></li>
-              <li><a href="media.html">Media</a></li>
-              <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-          </nav>
-        </div>
-      </header>
-      
-      <main>
-        <section id="main-site-content">
-          <div class="inner">
-            <h2>Institute of Sport and Exercise</h2>
-            <p><small>&quot;<i>The work of ISE is at the very heart of the University's vision and future</i>&quot;<br>Professor Sir Pete Downes<br>Principal & Vice Chancellor</small></p>
-            <p>Welcome to the University of Dundee's Institute of Sport and Exercise website.</p>
-            <p>This is a resource created to provide both Students and Staff alike information about the ISE and what services we have on offer.</p>
-            <p>Information about our faciilities, what's on and more is all availabale here. If your questions are not answered on the website, you can find all details to contact is <a href="contact.html">here</a>.</p>
-          </div>
-        </section>
-        
-        <aside id="right-column-content">
-          <div class="inner">
-            <h3>Useful Links</h3>
-            <ul class="usefulLinks fa-ul">
-              <li><i class="fa-li fa fa-facebook-square"></i><a href="https://facebook.com/isedundee">Facebook</a></li>
-              <li><i class="fa-li fa fa-twitter-square"></i><a href="https://twitter.com/isedundee/">Twitter</a></li>
-              <li><i class="fa-li fa fa-map-marker"></i><a href="https://www.google.co.uk/maps/place/Institute+of+Sport+%26+Exercise+-ise/@56.4581718,-2.9856615,17z/data=!4m8!1m2!2m1!1sdundee+ise!3m4!1s0x48865cc78a3b7177:0x43b79a9d3781f133!8m2!3d56.458705!4d-2.984607">Map</a></li>
-            </ul>
-          </div>
-        </aside>
-      </main>
-      
-      <footer id="mastfoot">
-        <hr>
-        &copy; <a href="https://www.dundee.ac.uk/" title="dundee.ac.uk/" target="_blank">UoD</a> AC11002 Team 3 2017
-        <br>
-        The University of Dundee is a Scottish Registered Charity, No. SC015096
-      </footer>
-    </div>
 
-  </body>
+<html lang="en">
+
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="description" content="Dundee University AFC Website">
+        <meta name="author" content="AC11002 Team 3">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/main.css"/>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <title>DUAFC | Home</title>
+
+    </head>
+
+
+    <body>
+
+        <header>
+            <div id="banner-container">
+                <img id="site-banner" src="img/dundee-banner.jpg">
+            </div>
+            
+            <!-- <div id="masthead" class="navbar">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="fa fa-bars"></span>
+                    </button>  
+                                      
+                    <h1 id="masthead-brand">Dundee University AFC</h3>
+                </div>
+                <nav class="navbar navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right" id="masthead-nav">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="#">Title1</a></li>
+                        <li><a href="#">Title2</a></li>
+                        <li><a href="#">Title3</a></li>
+                        <li><a href="#">Title4</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+
+                </nav>
+            </div> -->
+
+            <nav class="navbar uodblue">
+                <div class="container-fluid">
+                    <div class="navbar-header uodblue">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNav">
+                            <span class="fa fa-bars"></span> 
+                        </button>
+                        <a href="#" class="navbar-brand uodblue" style="margin-top:5px;">Dundee University AFC</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="mainNav">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">Page 1</a></li>
+                        <li><a href="#">Page 2</a></li> 
+                        <li><a href="#">Page 3</a></li> 
+                    </ul>
+                    </div>
+                </div>
+            </nav>
+
+        </header>
+
+        <main>
+            <section id="main-site-content">
+                <div class="inner">
+                <h2>Amateur Football Club</h2>
+                <p>Some placeholder text.</p>
+                <p>Some placeholder text.</p>
+                <p>Some placeholder text.</p>
+                <p>Some placeholder text.</p>
+                <p>Some placeholder text.</p>
+                </div>
+            </section>
+            
+            <aside id="right-column-content">
+                <div class="inner">
+                    <h3>Useful Links</h3>
+                    <ul class="usefulLinks fa-ul uodblue">
+                        <li><i class="fa-li fa fa-twitter-square"></i><a href="https://twitter.com/theduafc">Men's Twitter</a></li>
+                        <li><i class="fa-li fa fa-twitter-square"></i><a href="https://twitter.com/duwfc">Women's Twitter</a></li>
+                        <li><i class="fa-li fa fa-instagram"></i><a href="https://www.instagram.com/theduafc/">Instagram</a></li>
+                    </ul>
+                </div>
+                <div class="inner" style="margin-top:10px;">
+                    <a class="twitter-timeline" data-height="450" data-dnt="true" data-theme="light" data-link-color="#4365E2" href="https://twitter.com/isedundee?ref_src=twsrc%5Etfw">Tweets by isedundee</a>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+                </div>
+            </aside>
+            </main>
+            
+            <footer id="mastfoot">
+            <hr>
+            &copy; <a href="https://www.dundee.ac.uk/" title="dundee.ac.uk/" target="_blank">UoD</a> AC11002 Team 3 2017
+            <br>
+            The University of Dundee is a Scottish Registered Charity, No. SC015096
+            </footer>
+
+        </main>
+
+    </body>
 </html>

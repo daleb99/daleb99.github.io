@@ -34,6 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 .inner {
   padding:20px;
   box-shadow: 10px 5px 5px #888;
+  background-color:white;
 }
 
 #masthead, main, nav, footer {
@@ -68,7 +69,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #masthead-brand {
-  margin-top: 15px;
   margin-bottom: 0px;
   color: #4365E2;
 }
@@ -78,12 +78,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: 10px;
 }
 
-#masthead-name {
-  margin-bottom: 5px;
-}
-
 #masthead-nav {
-  padding-bottom: 20px;
   padding-left: 0px;
 }
 
@@ -92,11 +87,11 @@ h1, h2, h3, h4, h5, h6 {
   /*border: 1px solid black;*/
 }
 
-#masthead-nav > li + li {
-  margin-left: 20px;
+.navbar-nav > li + li {
+  margin-left: 10px;
 }
 
-#masthead-nav > li > a {
+.navbar-nav > li > a {
   font-size: 16px;
   font-weight: bold;
   color: #4365E2;
@@ -106,18 +101,29 @@ h1, h2, h3, h4, h5, h6 {
   padding-right: 3px;
 }
 
-#masthead-nav > li > a:hover,
-#masthead-nav > li > a:focus {
+.navbar-nav> li > a:hover,
+.navbar-nav > li > a:focus {
   background-color: transparent;
   border-bottom-color: rgba(169, 169, 169, .25);
   border-width: inherit inherit 4px inherit;
 }
 
-#masthead-nav > .active > a,
-#masthead-nav > .active > a:hover,
-#masthead-nav > .active > a:focus {
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:hover,
+.navbr-nav > .active > a:focus {
   color: rgba(51, 51, 51, .75);
   border-bottom-color: rgb(48, 48, 48);
+}
+
+@media (max-width: 768px) {
+  .navbar-nav > li > a {
+    text-align: center;
+    border: none;
+  }
+  .navbar-nav > .active > a {  
+    margin-left:10px;
+    border: none;
+  }
 }
 
 @media (min-width: 768px) {
@@ -146,20 +152,17 @@ h1, h2, h3, h4, h5, h6 {
   /*margin-right: 25px;*/
   margin-left: 2%;
   margin-right: 2%;
-  background-color: white;
 }
 
 @media (min-width: 768px) {
   #main-site-content {
     float: left;
     width: 62%;
-    background-color: white;
   }
   #right-column-content {
     float: right;
     width: 29%;
     min-height: 100%;
-    background-color: white;
   }
 }
 
