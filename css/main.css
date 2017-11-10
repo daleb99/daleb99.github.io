@@ -131,7 +131,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Main site content */
-#main-site-content, #right-column-content {
+#main-site-content, .right-column-content {
   margin: 10px 5px 5px;
 }
 
@@ -142,11 +142,12 @@ h1, h2, h3, h4, h5, h6 {
   background-color: white;
 }
 
-#right-column-content {
+.right-column-content {
   /*margin-right: 25px;*/
   margin-left: 2%;
   margin-right: 2%;
   background-color: white;
+  clear: right;
 }
 
 @media (min-width: 768px) {
@@ -155,7 +156,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 62%;
     background-color: white;
   }
-  #right-column-content {
+  .right-column-content {
     float: right;
     width: 29%;
     min-height: 100%;
