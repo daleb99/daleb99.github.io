@@ -33,6 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .inner {
   padding:20px;
+  background-color: white;
   box-shadow: 10px 5px 5px #888;
 }
 
@@ -140,14 +141,12 @@ h1, h2, h3, h4, h5, h6 {
   /*margin-left: 25px;*/
   margin-left: 2%;
   margin-right: 2%;
-  background-color: white;
 }
 
 .right-column-content {
   /*margin-right: 25px;*/
   margin-left: 2%;
   margin-right: 2%;
-  background-color: white;
   clear: right;
 }
 
@@ -155,13 +154,11 @@ h1, h2, h3, h4, h5, h6 {
   #main-site-content {
     float: left;
     width: 62%;
-    background-color: white;
   }
   .right-column-content {
     float: right;
     width: 29%;
     min-height: 100%;
-    background-color: white;
   }
 }
 
