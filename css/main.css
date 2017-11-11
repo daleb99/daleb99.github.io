@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6, .navbar-name {
 
 /* Banner Image */
 #banner-container {
-  height: 350px !important;
+  height: 300px !important;
   width: 100% !important;
   overflow: hidden;
   background-position: center top;
@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5, h6, .navbar-name {
 }
 
 .navbar-brand {
-  margin-top: 5px !important;
+  margin-top: 10px !important;
   margin-bottom: 0px !important;
   margin-left: 10px;
   color: #4365E2 !important;
