@@ -6,21 +6,23 @@ body {
   background-image: url('../img/main-background.png');
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, .navbar-name {
   font-family: 'Open Sans', Arial, sans-serif;
   margin-top: 0px;
 }
 
 /* Colours */
 .white {color: white;}
-.wheat {color: #F0BEA4;}
+.uodblue {color: #4365E2;}
+
 .steelblue {color: #4C9CCC;}
-.darkslategray {color: #333333}
+.darkslategray {color: #333;}
 .darkgreen {color: #B8C381;}
 .oldrose {color: #984843;}
 .skeptic {color: #C6E7CE;}
 .snowymint {color: #CEFFCE;}
-.uodblue {color: #4365E2;}
+.wheat {color: #F0BEA4;}
+
 
 #site-wrapper {
   min-height: 100%;
@@ -37,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 10px 5px 5px #888;
 }
 
-#masthead, main, nav, footer {
+.navbar, h1, main, #main-nav, footer {
   /*clear: both;*/
   overflow: hidden;
 }
@@ -45,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Banner Image */
 #banner-container {
-  height: 350px !important;
+  height: 300px !important;
   width: 100% !important;
   overflow: hidden;
   background-position: center top;
@@ -62,43 +64,58 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* Navbar Area */
-#masthead {
+.navbar {
   padding-left:20px;
   padding-right:40px;
   /*background-color: #99D8FF;*/
 }
 
-#masthead-brand {
-  margin-top: 15px;
-  margin-bottom: 0px;
-  color: #4365E2;
+.navbar-header {
+  margin-left: 30px;
 }
 
-#masthead-icon {
-  float: left;
+.navbar-brand {
+  margin-top: 10px !important;
+  margin-bottom: 0px !important;
+  margin-left: 10px;
+  color: #4365E2 !important;
+  float: none !important;
+  padding: 0 !important;
+  display: block;
+  display: inline-block;
+}
+
+.navbar-icon, .navbar-name {
+  vertical-align: middle;
+}
+
+.navbar-icon {
+  /*float: left;*/
   margin-right: 10px;
 }
 
-#masthead-name {
-  margin-bottom: 5px;
+.navbar-name {
+  margin-top: 5px;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: bold;
 }
 
-#masthead-nav {
-  padding-bottom: 20px;
+.navbar-nav {
   padding-left: 0px;
+  clear: both;
 }
 
-#masthead-nav > li {
+.navbar-nav > li {
   display: inline-block;
   /*border: 1px solid black;*/
 }
 
-#masthead-nav > li + li {
-  margin-left: 20px;
-  margin-bottom: 10px;
+.navbar-nav > li + li {
+  margin-left: 10px;
 }
 
-#masthead-nav > li > a {
+.navbar-nav > li > a {
   font-size: 16px;
   font-weight: bold;
   color: #4365E2;
@@ -106,34 +123,47 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   padding-left: 3px;
   padding-right: 3px;
+  padding-bottom: 1px !important;
 }
 
-#masthead-nav > li > a:hover,
-#masthead-nav > li > a:focus {
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
   background-color: transparent;
   border-bottom-color: rgba(169, 169, 169, .25);
   border-width: inherit inherit 4px inherit;
 }
 
-#masthead-nav > .active > a,
-#masthead-nav > .active > a:hover,
-#masthead-nav > .active > a:focus {
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:hover,
+.navbar-nav > .active > a:focus {
   color: rgba(51, 51, 51, .75);
   border-bottom-color: rgb(48, 48, 48);
 }
 
-@media (min-width: 768px) {
-  #masthead-icon, #masthead-brand, #masthead-name {
-    float: left;
+@media (max-width: 768px) {
+  .navbar-nav > li > a {
+    text-align: center;
+    border: none;
   }
-  #masthead-nav {
+  .navbar-nav > .active > a {
+    margin-left:10px;
+    border: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-nav {
+    clear: none;
     float: right;
-    margin-left: 30px;
   }
 }
 
 /* Main site content */
-#main-site-content, .right-column-content {
+main {
+  margin-top: -5px;
+}
+
+#main-site-content, #right-column-content {
   margin: 10px 5px 5px;
 }
 
@@ -141,13 +171,18 @@ h1, h2, h3, h4, h5, h6 {
   /*margin-left: 25px;*/
   margin-left: 2%;
   margin-right: 2%;
+  background-color: white;
 }
 
-.right-column-content {
+#right-column-content {
   /*margin-right: 25px;*/
   margin-left: 2%;
   margin-right: 2%;
-  clear: right;
+}
+
+#main-site-content > .inner + .inner,
+#right-column-content > .inner + .inner {
+  margin-top: 20px !important;
 }
 
 @media (min-width: 768px) {
@@ -155,22 +190,28 @@ h1, h2, h3, h4, h5, h6 {
     float: left;
     width: 62%;
   }
-  .right-column-content {
+  #right-column-content {
     float: right;
     width: 29%;
     min-height: 100%;
   }
 }
 
-.usefulLinks {
+.useful-links {
   padding-left: 10px;
 }
 
 
 /* Footer */
-#mastfoot {
+footer {
   color: #4365E2;
   text-align: center;
   /*height: 155px;*/
-  margin-top: 1em;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+hr {
+  margin-top: 0;
+  margin-bottom: 0.5em;
 }
