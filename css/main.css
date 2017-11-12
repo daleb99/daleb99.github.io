@@ -69,14 +69,6 @@ h1, h2, h3, h4, h5, h6, .navbar-name {
   }
 }
 
-/*@media (max-width: 768px) {
-  #site-banner {
-    min-height: 100%;
-    min-width: 100%;
-    opacity: 0;
-  }
-}*/
-
 
 /* Navbar Area */
 .navbar {
