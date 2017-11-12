@@ -47,9 +47,8 @@ h1, h2, h3, h4, h5, h6, .navbar-name {
 
 /* Banner Image */
 #banner-container {
-  height: 300px !important;
-/*  width: 100% !important; */
-  width: auto;
+  height: 300px;
+  width: 100% !important;
   overflow: hidden;
   background-position: center top;
   background-size: cover;
@@ -62,6 +61,21 @@ h1, h2, h3, h4, h5, h6, .navbar-name {
   min-width: 100%;
   opacity: 0;
 }
+
+@media (max-width: 768px) {
+  #banner-container {
+    height: 150px;
+    height: 39vw !important;
+  }
+}
+
+/*@media (max-width: 768px) {
+  #site-banner {
+    min-height: 100%;
+    min-width: 100%;
+    opacity: 0;
+  }
+}*/
 
 
 /* Navbar Area */
@@ -150,9 +164,7 @@ h1, h2, h3, h4, h5, h6, .navbar-name {
     margin-left:10px;
     border: none;
   }
-}
-
-@media (min-width: 768px) {
+  
   .navbar-nav {
     clear: none;
     float: right;
@@ -184,6 +196,12 @@ main {
 #main-site-content > .inner + .inner,
 #right-column-content > .inner + .inner {
   margin-top: 20px !important;
+}
+
+@media (max-width: 768px) {
+  #right-column-content {
+    margin-top: 20px;
+  }
 }
 
 @media (min-width: 768px) {
