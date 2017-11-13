@@ -8,7 +8,15 @@ body {
 
 h1, h2, h3, h4, h5, h6, .navbar-name {
   font-family: 'Open Sans', Arial, sans-serif;
+  /*margin-top: 0px;*/
+}
+
+h2, #right-column-content > .inner > h3 {
   margin-top: 0px;
+}
+
+h4 {
+  margin-bottom: 0.2em;
 }
 
 /* Colours */
@@ -39,7 +47,7 @@ h1, h2, h3, h4, h5, h6, .navbar-name {
   box-shadow: 10px 5px 5px #888;
 }
 
-.navbar, h1, main, #main-nav, footer {
+.navbar, h1, main, #main-nav, footer, .inner {
   /*clear: both;*/
   overflow: hidden;
 }
@@ -85,6 +93,7 @@ h1, h2, h3, h4, h5, h6, .navbar-name {
   margin-top: 10px !important;
   margin-bottom: 0px !important;
   margin-left: 10px;
+  margin-right: 10px;
   color: #4365E2 !important;
   float: none !important;
   padding: 0 !important;
