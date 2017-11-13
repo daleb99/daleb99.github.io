@@ -11,7 +11,7 @@ h1, h2, h3, h4, h5, h6, .navbar-name {
   /*margin-top: 0px;*/
 }
 
-h2 {
+h2, #right-column-content > .inner > h3 {
   margin-top: 0px;
 }
 
