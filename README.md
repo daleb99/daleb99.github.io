@@ -1,11 +1,14 @@
-# Web-Authoring-2
+# daleb99.github.io
 Website files for AC11002 WWW Authoring Assignment 2.
 
-# Content To Be Added
+# Current state of the site:
 
-- **Home** – Sports and such
-- **About** – We are a sports society
-- **Events** – October 10th there are sports
-- **Media** – Pictures of people doing sports (in this society)
-- **Contact us** – Here’s where ISE is and how to call and email us
-- **Help** – I think this is just the same as above so maybe delete
+- [x] **Home (index.html)**
+- [x] **About (about.html)**
+- [ ] **FAQ (FAQ.html)**
+- [ ] **Teams (teams.html)**
+- [x] **League Table (leaguetable.html)**
+- [ ] **Fixtures (fixtures.html)**
+- [x] **Training Sessions (training.html)**
+- [x] **Media Gallery (media.html)**
+- [x] **Contact Us / Join Us (contact.html)**
