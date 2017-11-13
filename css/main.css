@@ -6,6 +6,12 @@ body {
   background-image: url('../img/main-background.png');
 }
 
+table > tbody > tr > th,
+table > tbody > tr > td {
+  padding: 2px 4px 2px 3px;
+  border: 1px solid #BBB;
+}
+
 h1, h2, h3, h4, h5, h6, .navbar-name {
   font-family: 'Open Sans', Arial, sans-serif;
   /*margin-top: 0px;*/
