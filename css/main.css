@@ -47,7 +47,7 @@ h4 {
   box-shadow: 10px 5px 5px #888;
 }
 
-.navbar, h1, main, #main-nav, footer {
+.navbar, h1, main, #main-nav, footer, .inner {
   /*clear: both;*/
   overflow: hidden;
 }
@@ -93,6 +93,7 @@ h4 {
   margin-top: 10px !important;
   margin-bottom: 0px !important;
   margin-left: 10px;
+  margin-right: 10px;
   color: #4365E2 !important;
   float: none !important;
   padding: 0 !important;
