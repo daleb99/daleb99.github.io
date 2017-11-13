@@ -8,7 +8,7 @@ Website files for AC11002 WWW Authoring Assignment 2.
 - [ ] **FAQ (FAQ.html)**
 - [ ] **Teams (teams.html)**
 - [ ] **League Table (leaguetable.html)**
-- [ ] **Timetable (timetable.html)**
+- [ ] **Fixtures (fixtures.html)**
 - [x] **Training Sessions (training.html)**
 - [x] **Media Gallery (media.html)**
 - [x] **Contact Us / Join Us (contact.html)**
