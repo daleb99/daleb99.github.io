@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+body {
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  background-image: url('../img/main-background.png');
+}
+
+h1, h2, h3, h4, h5, h6, .navbar-name {
+  font-family: 'Open Sans', Arial, sans-serif;
+  /*margin-top: 0px;*/
+}
+
+h2, #right-column-content > .inner > h3 {
+  margin-top: 0px;
+}
+
+h4 {
+  margin-bottom: 0.2em;
+}
+
+/* Colours */
+.white {color: white;}
+.uodblue {color: #4365E2;}
+
+.steelblue {color: #4C9CCC;}
+.darkslategray {color: #333;}
+.darkgreen {color: #B8C381;}
+.oldrose {color: #984843;}
+.skeptic {color: #C6E7CE;}
+.snowymint {color: #CEFFCE;}
+.wheat {color: #F0BEA4;}
+
+
+#site-wrapper {
+  min-height: 100%;
+  height: auto !important;
+  width: auto !important;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto /*-155px*/;
+}
+
+.inner {
+  padding:20px;
+  background-color: white;
+  box-shadow: 10px 5px 5px #888;
+}
+
+.navbar, h1, main, #main-nav, footer, .inner {
+  /*clear: both;*/
+  overflow: hidden;
+}
+
+
+/* Banner Image */
+#banner-container {
+  height: 300px;
+  width: 100% !important;
+  overflow: hidden;
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../img/dundee-banner.jpg");
+}
+
+#site-banner {
+  min-height: 100%;
+  min-width: 100%;
+  opacity: 0;
+}
+
+@media (max-width: 768px) {
+  #banner-container {
+    height: 150px;
+    height: 39vw !important;
+  }
+}
+
+
+/* Navbar Area */
+.navbar {
+  padding-left:20px;
+  padding-right:40px;
+  /*background-color: #99D8FF;*/
+}
+
+.navbar-header {
+  margin-left: 30px;
+}
+
+.navbar-brand {
+  margin-top: 10px !important;
+  margin-bottom: 0px !important;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #4365E2 !important;
+  float: none !important;
+  padding: 0 !important;
+  display: block;
+  display: inline-block;
+}
+
+.navbar-icon, .navbar-name {
+  vertical-align: middle;
+}
+
+.navbar-icon {
+  /*float: left;*/
+  margin-right: 10px;
+}
+
+.navbar-name {
+  margin-top: 5px;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.navbar-nav {
+  padding-left: 0px;
+  clear: both;
+}
+
+.navbar-nav > li {
+  display: inline-block;
+  /*border: 1px solid black;*/
+}
+
+.navbar-nav > li + li {
+  margin-left: 10px;
+}
+
+.navbar-nav > li > a {
+  font-size: 16px;
+  font-weight: bold;
+  color: #4365E2;
+  border-bottom: 2px solid transparent;
+  text-decoration: none;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-bottom: 1px !important;
+}
+
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: rgba(169, 169, 169, .25);
+  border-width: inherit inherit 4px inherit;
+}
+
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:hover,
+.navbar-nav > .active > a:focus {
+  color: rgba(51, 51, 51, .75);
+  border-bottom-color: rgb(48, 48, 48);
+}
+
+@media (max-width: 768px) {
+  .navbar-nav > li > a {
+    text-align: center;
+    border: none;
+  }
+  .navbar-nav > .active > a {
+    margin-left:10px;
+    border: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-nav {
+    clear: none;
+    float: right;
+  }
+}
+
+/* Main site content */
+main {
+  margin-top: -5px;
+}
+
+#main-site-content, #right-column-content {
+  margin: 10px 5px 5px;
+}
+
+#main-site-content {
+  /*margin-left: 25px;*/
+  margin-left: 2%;
+  margin-right: 2%;
+  background-color: white;
+}
+
+#right-column-content {
+  /*margin-right: 25px;*/
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+#main-site-content > .inner + .inner,
+#right-column-content > .inner + .inner {
+  margin-top: 20px !important;
+}
+
+@media (max-width: 768px) {
+  #right-column-content {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  #main-site-content {
+    float: left;
+    width: 62%;
+  }
+  #right-column-content {
+    float: right;
+    width: 29%;
+    min-height: 100%;
+  }
+}
+
+.useful-links {
+  padding-left: 10px;
+}
+
+
+/* Footer */
+footer {
+  color: #4365E2;
+  text-align: center;
+  /*height: 155px;*/
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+hr {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
